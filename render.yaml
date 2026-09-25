@@ -5,7 +5,7 @@ services:
     name: cgame-api
     runtime: docker
     dockerfilePath: ./backend/server/Dockerfile
-    dockerContext: ..
+    dockerContext: .
     plan: free
     envVars:
       - key: CGAME_SECRET_KEY
